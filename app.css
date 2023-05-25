@@ -103,3 +103,45 @@ body{
     color: var(--secondary-color);
     font-size: .875rem;
 }
+
+@media screen and (min-width: 64rem){
+    body{
+        flex-direction: row;
+    }
+
+    .images-container{
+        margin: 1.5625rem;
+        width: 25%;
+    }
+
+    .info-container{
+        margin-right: 1.5625rem;
+        width: 50%;
+        margin-top: 3.5625rem;
+        height: 9.625rem ;
+    }
+    .info-container p{
+        align-self: start;
+        padding-left: 10%;
+    }
+
+    .icons-menu{
+        margin: 0 0 2.125rem 1.5625rem;
+    }
+
+    .tooltip-box{
+        top: -10.5rem;
+        right: calc(-50% + 12.8125rem);
+    }
+
+    .tooltip-box::before {
+        content: " ";
+        position: relative;
+        top: 45px;
+        right: -182px;
+        border-top: 45px solid var(--primary-color);
+        border-left: 45px solid transparent;
+      }
+
+      
+}
