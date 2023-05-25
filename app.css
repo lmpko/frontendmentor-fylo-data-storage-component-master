@@ -1,0 +1,11 @@
+:root{
+    --primary-color: hsl(243, 100%, 93%);
+    --secondary-color: hsl(229, 7%, 55%);
+    --tertiary-color: hsl(228, 56%, 26%);
+    --fouthary-color: hsl(229, 57%, 11%);
+}
+
+body{
+    font-size: .875rem ;
+    font-family: 'Raleway', sans-serif;
+}
