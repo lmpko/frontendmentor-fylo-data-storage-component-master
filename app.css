@@ -8,5 +8,52 @@
 body{
     font-size: .875rem ;
     font-family: 'Raleway', sans-serif;
+    background: url("/images/bg-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.images-container{
+    background-color: var(--tertiary-color);
+    border-radius: .9375rem 9.25rem .9375rem .9375rem;
+    width: 90%;
+}
+
+.images-container img{
+    padding: 1.5625rem 0 0 1.5625rem;
+    margin-top: 1.5625rem ;
+}
+
+.icons-menu{
+    margin: 0 0 3.125rem 1.5625rem;
+}
+
+.icons-menu img{
+    padding: .9375rem;
+    background-color: var(--fouthary-color);
+    width: 1.5625rem;
+    height: 1.5625rem;
+    margin-right: .625rem ;
+    border-radius: .9375rem ;
+}
+
+.info-container{
+    background-color: var(--tertiary-color);
+    width: 90%;
+    margin-top: 1.5625rem ;
+    border-radius: 1.5625rem ;
+    color: var(--primary-color);
+}
+
+.info-container p{
+    text-align: center;
+}
+
+.info-container p span {
+    font-weight: 700;
+}
