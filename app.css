@@ -107,6 +107,11 @@ body{
 @media screen and (min-width: 64rem){
     body{
         flex-direction: row;
+        background-image: url("/images/bg-desktop.png");
+        background-repeat: no-repeat;
+        background-color: var(--fouthary-color);
+        background-position: 0 50vh;
+        background-size: auto;
     }
 
     .images-container{
