@@ -48,12 +48,50 @@ body{
     margin-top: 1.5625rem ;
     border-radius: 1.5625rem ;
     color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-container span {
+    font-weight: 700;
 }
 
 .info-container p{
-    text-align: center;
+    padding-top: 1.5625rem;
 }
 
-.info-container p span {
-    font-weight: 700;
+.storage-range{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "range range"
+    "text text";
+    align-items: center;
+    justify-items: end; 
+    width: 80%;
+}
+
+.storage-range input{
+    width: 100%;
+    grid-area: range;
+}
+
+.storage-range span:first-child{
+    justify-self: start;
+}
+
+.tooltip-box{
+    background-color: var(--primary-color);
+    border-radius: .9375rem ;
+    color: var(--fouthary-color);
+    padding: 1.5625rem 3.1875rem;
+    font-size: 1.5rem ;
+    position: relative;
+    top: 2.1875rem;
+}
+
+.tooltip-box span:nth-child(2){
+    color: var(--secondary-color);
+    font-size: .875rem;
 }
