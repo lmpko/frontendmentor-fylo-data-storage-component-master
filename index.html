@@ -16,45 +16,39 @@
 
 </head>
 <body>
+  <main>
 
-  <div class="images-container">
-    <div>
-      <img src="/images//logo.svg" alt="logo">
+    <div class="images-container">
+      <div>
+        <img src="/images//logo.svg" alt="logo">
+      </div>
+      <div class="icons-menu">
+        <img src="/images/icon-document.svg" alt="document">
+        <img src="/images/icon-folder.svg" alt="folder">
+        <img src="/images/icon-upload.svg" alt="upload">
+      </div>
     </div>
-    <div class="icons-menu">
-      <img src="/images/icon-document.svg" alt="document">
-      <img src="/images/icon-folder.svg" alt="folder">
-      <img src="/images/icon-upload.svg" alt="upload">
+  
+    <div class="info-container">
+      <h1>
+        You’ve used <span>815 GB</span> of your storage
+      </h1>
+      
+      <div class="storage-range">
+        <span>
+          0 GB
+        </span>
+        <input type="range" value="815" min="0" max="1000" name="storage" id="storage" aria-label="storage-range" disabled>
+        <span>
+          1000 GB
+        </span>
+      </div>
+      
+      <div class="tooltip-box">
+        <span>185</span>
+        <span>GB Left</span>
+      </div>
     </div>
-  </div>
-
-  <div class="info-container">
-    <h1>
-      You’ve used <span>815 GB</span> of your storage
-    </h1>
-    
-    <div class="storage-range">
-      <span>
-        0 GB
-      </span>
-      <input type="range" value="815" min="0" max="1000" name="storage" id="storage" aria-label="storage-range" disabled>
-      <span>
-        1000 GB
-      </span>
-    </div>
-    
-    <div class="tooltip-box">
-      <span>185</span>
-      <span>GB Left</span>
-    </div>
-  </div>
-
-  
-
-   
-  
-  
-  
-  
+  </main>
 </body>
 </html>
