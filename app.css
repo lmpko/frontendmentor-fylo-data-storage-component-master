@@ -58,8 +58,10 @@ body{
     font-weight: 700;
 }
 
-.info-container p{
-    padding-top: 1.5625rem;
+.info-container h1{
+    font-size: 1rem ;
+    padding-top: 1.9375rem ;
+    font-weight: 400;
 }
 
 .storage-range{
@@ -150,10 +152,9 @@ input[type="range"] {
         margin-top: 3.5625rem;
         height: 9.625rem ;
     }
-    .info-container p{
+    .info-container h1{
         align-self: start;
         padding-left: 10%;
-        padding-top: 2.5625rem;
     }
 
     .icons-menu{
